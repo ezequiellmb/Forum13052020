@@ -38,21 +38,37 @@ public class ListaAluno extends HttpServlet {
                     out.println("Nota 1: " + aluno.getNota1());
                     out.println("Nota 2: " + aluno.getNota2());
                     out.println("<br>");
-                    out.println("Media das notas : " + v.mediatotal());
                     out.println("</body>");
                     out.println("</html>");
                 });
+                out.println("<html>");
+                out.println("<body>");
+                out.println("<br>Media das notas : " + v.mediatotal());
+                out.println("</body>");
+                out.println("</html>");
+
+                out.println("<html>");
+                out.println("<body>");
+                out.println("<br>Média das notas dos homens: " + v.mediaHomem());
+                out.println("</body>");
+                out.println("</html>");
+
+                out.println("<html>");
+                out.println("<body>");
+                out.println("<br>Média das notas das mulheres: " + v.mediaMulher());
+                out.println("</body>");
+                out.println("</html>");
+
+                out.println("<html>");
+                out.println("<body>");
+                out.println("<br>Maior: " + v.maiorMedia() + "  Nome: " + v.nome);
+                out.println("</body>");
+                out.println("</html>");
 
             } catch (IOException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
             }
-
-
-            out.println("</html>");
-
-
-
         }
 
 

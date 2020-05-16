@@ -1,1 +1,4 @@
-ezequielzinho,G, 2.5, 2.1
+José,m, 10, 12
+Diego,M, 10, 3
+joao,F, 6, 8
+Noeli,f, 10, 1
